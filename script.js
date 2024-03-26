@@ -6,7 +6,7 @@ for (let i = 1; i <=826; i++) {
 
     //Función que recibe 3 parámetros y devuelve la manera en cómo se debe visualizar
     const createPost = (name, message, imageURL) => {
-        return `<div class="card"><img class=img src="${imageURL}" alt="Rick and Morty"><h2 class="txtH2" >${name}</h2><p class="txtp" >${message}</p></div>`;
+        return `<div class="card"><img class=img src="${imageURL}" alt="Characters_Rick_&_Morty"><h2 class="txtH2" >${name}</h2> <p class="txtp" >${message}</p> </div>`;
     }
 
     const name = "Character "+i;
