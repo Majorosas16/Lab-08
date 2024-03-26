@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+:root{
+    --color1: rgb(85, 110, 193);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#caja{
+    display:flex;
+    /* Para que abarque todo el espacio y se aprecien mejor las cards */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img {
+    width: 10rem;
+    border-radius: 50%;
+}
+.txtH2 {
+    font-size: 1.5rem;
+    color: var(--color1);
+    font-style:italic;
+    font-weight: normal;
+}
+.txtp{
+    color: rgb(123, 122, 122);
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 0.625rem;
+}
